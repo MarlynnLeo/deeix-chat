@@ -40,6 +40,6 @@ f:["$","$L13",null,{}]
     "background:#d4d4d4",
     "background:transparent"
   );
-  console.log("%cOfficial: #secondary-local  |  Repository: #secondary-local  |  License: Apache License 2.0", "color:#64748b;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace");
+  console.log("%cSecondary: https://github.com/MarlynnLeo/deeix-chat  |  Gateway: https://github.com/MarlynnLeo/grok2api  |  License: Apache License 2.0", "color:#64748b;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace");
 })();
 11:["$","$L15",null,{"id":"deeix-devtools-brand","strategy":"afterInteractive","children":"$16"}]
