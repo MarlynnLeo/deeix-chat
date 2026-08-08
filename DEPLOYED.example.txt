@@ -1,0 +1,14 @@
+DEEIX Chat secondary deploy notes (NO SECRETS)
+
+URL: http://<host>:8090
+Health: http://<host>:8090/healthz
+
+Admin:
+  username: admin
+  password: (set at first boot; store only in a password manager)
+
+Upstream:
+  name: grok2api
+  baseURL: http://<host>:8000/v1
+
+Compose dir: /path/to/deeix-chat

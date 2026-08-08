@@ -1,0 +1,12 @@
+# Example: bind only on a specific host interface / all LAN interfaces.
+# Copy fragments into docker-compose.override.yml as needed.
+services:
+  app:
+    image: ghcr.io/deeix-ai/deeix-chat:latest
+    pull_policy: never
+    ports:
+      # Prefer firewall restriction even when using 0.0.0.0
+      - "0.0.0.0:8090:8080"
+    volumes:
+      - ./frontend-out:/app/frontend/out:ro
+      - ./SECONDARY.md:/app/SECONDARY.md:ro
